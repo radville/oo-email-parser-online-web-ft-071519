@@ -6,7 +6,7 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.split(/\w\s|, /)
+    @email_addresses.split(/\w\s|,\s/)
   end  
   
 end
